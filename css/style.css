@@ -9,7 +9,7 @@ img {
   }
 footer {
   height: 80px;
-  background-color: aqua;
+  background-color: black;
 
 }
 main {
@@ -24,6 +24,11 @@ header {
 ul {
   list-style-type: none;
 }
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
   /* common */
 
   .wrapper {
@@ -76,11 +81,38 @@ ul {
 /* /main */
 /* footer */
 
+.footer {
+  display: flex;
+}
 .icon-left {
-  width: 30%;
+  width: 40%;
   display: flex;
   justify-content: left;
   gap: 20px;
-}
+https://validator.w3.org/nu/#textarea}
 
+.icon-center {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  gap: 20px;
+}
+.icon {
+  color: white;
+  font-size: 0.9rem;
+  padding-top: 20px;
+}
+.green {
+  color: green;
+}
+.icon-right {
+  width: 40%;
+  display: flex;
+  justify-content: right;
+  padding: 20px;
+}
+.meeting {
+  color: red;
+  background-color: grey;
+}
 /* /footer */
