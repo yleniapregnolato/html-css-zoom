@@ -18,8 +18,9 @@ main {
 }
 header {
   height: 80px;
-  background-color: aqua;
+  background-color: black;
 }
+
   /* common */
 
   .wrapper {
@@ -28,7 +29,27 @@ header {
     height: 100vh;
     flex-wrap:wrap;
     background-color: black;
+    padding-left: 50px;
+    padding-right: 50px;
   }
+
+/* header */
+.header {
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+  color: white;
+  padding: 10px;
+}
+
+.logo-header {
+  background-color: rgba(131, 139, 131, 0.5);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 0.8rem;
+
+}
+/* /header */
 /* main */
   .col-video {
     width: calc(100% / 7);
