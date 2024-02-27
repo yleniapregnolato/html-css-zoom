@@ -21,6 +21,9 @@ header {
   background-color: black;
 }
 
+ul {
+  list-style-type: none;
+}
   /* common */
 
   .wrapper {
@@ -71,3 +74,13 @@ header {
     font-size: 0.9rem;
   }
 /* /main */
+/* footer */
+
+.icon-left {
+  width: 30%;
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+}
+
+/* /footer */
