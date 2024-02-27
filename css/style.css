@@ -3,3 +3,50 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+img {
+    max-width: 100%;
+  }
+footer {
+  height: 80px;
+  background-color: aqua;
+
+}
+main {
+  height: calc(100vh - 160px);
+  overflow-y: auto;
+}
+header {
+  height: 80px;
+  background-color: aqua;
+}
+  /* common */
+
+  .wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-wrap:wrap;
+    background-color: black;
+  }
+/* main */
+  .col-video {
+    width: calc(100% / 7);
+    height: calc(100 / 5);
+    min-width: 150px;
+  }
+
+  .item {
+    padding: 2px;
+    position: relative;
+  }
+
+  .item-text {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: white;
+    background-color: rgba(0,0,0, 0.5);
+    font-size: 0.9rem;
+  }
+/* /main */
